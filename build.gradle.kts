@@ -15,6 +15,8 @@ dependencies {
     implementation("org.seleniumhq.selenium:selenium-java:4.28.1")
     implementation("org.junit.jupiter:junit-jupiter-engine:5.11.4")
 
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.15.0")
+
 
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
